@@ -123,14 +123,24 @@ let z = 0
 //     }
 //}
 
-if (x!=y && x!=z && y!=z){
-    if(x>y && x>z){
-        console.log('Największa wartość to '+x)
-    }
-    if(y>x && y>z){
-        console.log('Największa wartość to '+y)
-    }
-    if(z>x && z>y){
-        console.log('Największa wartość to '+z)
-    }
+// if (x!=y && x!=z && y!=z){
+//     if(x>y && x>z){
+//         console.log('Największa wartość to '+x)
+//     }
+//     if(y>x && y>z){
+//         console.log('Największa wartość to '+y)
+//     }
+//     if(z>x && z>y){
+//         console.log('Największa wartość to '+z)
+//     }
+// }
+
+
+
+// for (let i = 0 ; i <=10 ; i++ ){
+//     console.log('kolejne przejscie petli '+i)
+// }
+
+for(let i=2; i<=20; i+=2){
+    console.log(i)
 }
